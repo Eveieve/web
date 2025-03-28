@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 10px 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>선물용과 가정용 상품 구성 </caption>
+        <!-- colgroup은 컬럼 들을 하나로 묶음 -->
+        <colgroup>
+            <col style="background-color: lightgrey;">
+            <col style="background-color: cornflowerblue;">
+            <col style="width: 100px;">
+            <col style="width: 100px">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>용도</th>
+                <th>중량</th>
+                <th>갯수</th>
+                <th>가격 </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">선물용</td>
+                <td>3kg</td>
+                <td>11~16과</td>
+                <td>35000</td>
+            </tr>
+            <tr>
+
+                <td>5kg</td>
+                <td>11~16과</td>
+                <td>35000</td>
+            </tr>
+            <tr>
+                <td rowspan="2">가물용</td>
+                <td>3kg</td>
+                <td>11~16과</td>
+                <td>35000</td>
+            </tr>
+            <tr>
+
+                <td>5kg</td>
+                <td>11~16과</td>
+                <td>35000</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
