@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Table Advanced Example</title>
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 30px auto;
+        }
+
+        th,
+        td {
+            border: 1px solid #999;
+            padding: 10px;
+            text-align: center;
+        }
+
+        thead {
+            background-color: #e6e6e6;
+        }
+
+        tfoot {
+            background-color: #f9f9f9;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2 style="text-align: center;">Project Team Overview</h2>
+
+    <!-- table 시작  -->
+    <table>
+        <!-- 컬럼에 해당하는 값들을 thead에 몽땅쓰기  -->
+        <thead>
+            <tr>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Role</th>
+                <th rowspan="2">Project</th>
+            </tr>
+            <tr>
+                <th>Main</th>
+                <th>Secondary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jane</td>
+                <td>Backend</td>
+                <td>DevOps</td>
+                <td>Alpha</td>
+            </tr>
+            <tr>
+                <td>Mike</td>
+                <td>Frontend</td>
+                <td>QA</td>
+                <td>Beta</td>
+            </tr>
+            <tr>
+                <td>Susan</td>
+                <td colspan="2">Fullstack</td>
+                <td>Gamma</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Total Team Members: 3</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>

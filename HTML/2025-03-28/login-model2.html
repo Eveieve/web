@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chill Stock - Login</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #F9F9F9;
+            /* light background */
+        }
+
+        .login-wrapper {
+            width: 100%;
+            max-width: 400px;
+            padding: 30px;
+            background: #FFFFFF;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .logo h1 {
+            font-weight: 700;
+            color: #4CAF50;
+        }
+
+        .login-wrapper h2 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 30px;
+            color: #212121;
+        }
+
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        .options {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+            margin-bottom: 20px;
+            color: #757575;
+        }
+
+        .options input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        .signin-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-bottom: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .signin-btn:hover {
+            background-color: #FF9800;
+        }
+
+        .signup-text {
+            text-align: center;
+            font-size: 14px;
+            margin-bottom: 20px;
+            color: #212121;
+        }
+
+        .signup-text a {
+            text-decoration: none;
+            font-weight: bold;
+            color: #4CAF50;
+        }
+
+        .divider {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .divider::before,
+        .divider::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: #E0E0E0;
+        }
+
+        .divider span {
+            margin: 0 10px;
+            color: #999;
+            font-size: 14px;
+        }
+
+        .social-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            cursor: pointer;
+            background: white;
+            transition: background-color 0.3s ease;
+        }
+
+        .social-btn img {
+            width: 18px;
+            height: 18px;
+            margin-right: 10px;
+        }
+
+        .social-btn:hover {
+            background-color: #F0F0F0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login-wrapper">
+        <div class="logo">
+            <h1>Chill Stock</h1>
+        </div>
+
+        <h2>Welcome back!</h2>
+
+        <input type="email" placeholder="name@email.com" />
+        <input type="password" placeholder="Password" />
+
+        <div class="options">
+            <label><input type="checkbox" /> Remember me</label>
+            <a href="#">Reset password</a>
+        </div>
+
+        <button class="signin-btn">Sign in</button>
+
+        <div class="signup-text">
+            Don’t have an account? <a href="#">Sign up</a>
+        </div>
+
+        <div class="divider"><span>or</span></div>
+
+        <div class="social-btn">
+            <img src="https://img.icons8.com/color/48/000000/google-logo.png" alt="Google" />
+            Continue with Google
+        </div>
+
+        <div class="social-btn">
+            <img src="https://img.icons8.com/color/48/000000/twitter--v1.png" alt="Twitter" />
+            Continue with Twitter
+        </div>
+    </div>
+</body>
+
+</html>
