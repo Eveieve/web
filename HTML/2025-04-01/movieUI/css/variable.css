@@ -1,0 +1,10 @@
+/* 표준화된 생삭값*/
+
+/* html 문서 최상위 요소 선택하는 전역 선택자, html태그 가리킴, 
+css 변수정의에 사용됨(custom properties) */
+:root {
+    --purple: #6644b8;
+    --darkpurple: #37273b;
+    --background-purple: #120522;
+    --border: rgba(255, 255, 255, 0.5);
+}

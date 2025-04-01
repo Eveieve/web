@@ -1,0 +1,87 @@
+@import "./global.css";
+
+/* - 검색바 간격 조정 
+
+- 검색바 길이 조정 width = 100%
+
+- 검색바 
+  검색바 위 간격 조정 50px 
+  border-radius 
+  input의 끝 모서리를 동글하게 조정 
+  width : 100%
+  padding 10px
+  color : white
+  검색바 포커스 지정  */
+
+  /* find.html의 검색바 스타일링 */
+
+ .find-search-bar-form {
+  width: 100%;
+  /* padding: 0 25px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+ }
+
+.find-search-bar-form div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ .find-search-bar-form__input {
+  width: 80%;
+  border-radius: 15px;
+  background-color: var(--purple);
+  padding: 5px;
+ }
+
+ .find-search-bar-form__input:focus {
+  border: 2px solid #594374
+ }
+
+ .material-icons-outlined {
+  /* background-color: var(--background-purple); */
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: -50px;
+ }
+
+
+ .best-movie__img-container {
+  padding: 0 20px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.best-movie__img {
+  width: 22rem;
+  height: 12rem;
+  border-radius: 25px;
+}
+
+.best-movie__img-container button {
+  position: absolute;
+  background-color: var(--purple);
+  border-radius: 50%;
+  left: calc(50% + 5rem);
+  font-size: 5rem;
+  color: white;
+  bottom: 3.2rem;
+}
+.best-movie__title {
+  padding-left: 25px;
+}
+.best-movie__promotion-title {
+  font-size: 14px;
+}
+.best-movie__movie-name {
+  color: var(--purple);
+  font-size: 40px;
+  font-weight: 600;
+}

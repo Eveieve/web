@@ -1,14 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chill Stock - Login</title>
-    <style>
         * {
             box-sizing: border-box;
             font-family: 'Arial', sans-serif;
+            border: 2px solid coral;
         }
 
         body {
@@ -18,19 +12,23 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background: #F9F9F9;
+            background: #F5F7FA;
             /* light background */
         }
 
         .login-wrapper {
             width: 100%;
-            max-width: 400px;
-            padding: 30px;
+            max-width: 500px;
+            padding: 60px;
             background: #FFFFFF;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+            /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.0);
             display: flex;
             flex-direction: column;
+            justify-content: center;
+            border-radius: 12px;
+            border: 0.3px solid lightgrey;
         }
 
         .logo {
@@ -38,16 +36,12 @@
             margin-bottom: 20px;
         }
 
-        .logo h1 {
-            font-weight: 700;
-            color: #33aa37;
-        }
-
         .login-wrapper h2 {
-            text-align: center;
-            font-size: 24px;
-            margin-bottom: 30px;
+            text-align: start;
+            font-size: 30px;
+            margin-bottom: 50px;
             color: #212121;
+            
         }
 
         input[type="email"],
@@ -146,43 +140,3 @@
         .social-btn:hover {
             background-color: #F0F0F0;
         }
-    </style>
-</head>
-
-<body>
-    <div class="login-wrapper">
-        <div class="logo">
-            <h1>Chill Stock</h1>
-        </div>
-
-        <h2>Welcome back!</h2>
-
-        <input type="email" placeholder="name@email.com" />
-        <input type="password" placeholder="Password" />
-
-        <div class="options">
-            <label><input type="checkbox" /> Remember me</label>
-            <a href="#">Reset password</a>
-        </div>
-
-        <button class="signin-btn">Sign in</button>
-
-        <div class="signup-text">
-            Don’t have an account? <a href="#">Sign up for free</a>
-        </div>
-
-        <div class="divider"><span>or</span></div>
-
-        <div class="social-btn">
-            <img src="https://img.icons8.com/color/48/000000/google-logo.png" alt="Google" />
-            Continue with Google
-        </div>
-
-        <div class="social-btn">
-            <img src="https://img.icons8.com/color/48/000000/twitter--v1.png" alt="Twitter" />
-            Continue with Twitter
-        </div>
-    </div>
-</body>
-
-</html>

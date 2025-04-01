@@ -1,0 +1,27 @@
+/* @media (max-width: 1280px){
+    body{
+        background-color: pink;
+    } 
+}
+
+
+@media (max-width: 600px) {
+    body {
+        background-color: aquamarine;
+    }
+} */
+
+h1, span{
+    /* border: 3px solid lightcoral; */
+    /* 모두 다 인라인 요소로 변경하기 */
+    /* display: inline;  */
+    /* display: block; */
+    display: hidden;
+   
+}
+
+h1 {
+ /* 줄 한개 귿기  */
+ border-bottom: 1px solid black;
+ border-top: 1px solid black;
+}
