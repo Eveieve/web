@@ -4,26 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix</title>
-    <link rel="stylesheet" href="./css/global.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/mypage.css">
 </head>
 
 <body>
-    <img src="./img/login-img.png" alt="image of a login header">
+    <div>
+        <section class="mypage__profile">
+            <div>
+                <img class="mypage__profile-img" src="./img/mypage-profile.jpg" alt="">
+                <p class="mypage__profile-text">Nanhee Jeong</p>
+            </div>
+            <div>
 
-    <div class="login-title">
-        <h1 class="login-title__maintext">Brand New OTT Netflix</h1>
-        <p class="login-title__subtext">Brand New OTT Netflix <br /> Free for 1 month! </p>
+                <span class="mypage__profile-plus">+</span>
+                <p class="mypage__profile-text">New Profile</p>
+
+            </div>
+        </section>
+        <!-- "mypage__continue"라는 섹션 클래스 이름을 줬음  -->
+        <section class="mypage__continue">
+            <p class="mypage__section-title">이어보기</p>
+            <div class="mypage__continue-list">
+                <div class="mypage__continue-item">
+                    <img class="mypage__continue-img" src="./img/mypage-continueWatch-01.jpg" alt="">
+                    <p class="mypage__continue-title">센과 치히로의 행방불명</p>
+                </div>
+                <div class="mypage__continue-item">
+                    <img class="mypage__continue-img" src="./img/mypage-continueWatch-02.jpg" alt="">
+                    <p class="mypage__continue-title">마루 밑 아리에티</p>
+                </div>
+            </div>
+        </section>
+        <section class="mypage__wishlist">
+            <p class="mupage__wishlist-title">내가 찜한 목록</p>
+
+            <div class="mypage__wishlist-container">
+                <div class="mypage__wishlist-item">
+                    <img class="mypage__wishlist-img" src="./img/mypage-wishlist-01.jpg" alt="">
+                    <p class="mypage__wishlist-title">도깨비</p>
+                    <p class="mypage__wishlist-info">김고은, 공유 출연 </p>
+                </div>
+                <div class="mypage__wishlist-item">
+                    <img class="mypage__wishlist-img" src="./img/mypage-wishlist-02.jpg" alt="">
+                    <p class="mypage__wishlist-title">오만과 편견</p>
+                    <p class="mypage__wishlist-info">항상준 출연</p>
+                </div>
+                <div class="mypage__wishlist-item">
+                    <img class="mypage__wishlist-img" src="./img/mypage-wishlist-03.jpg" alt="">
+                    <p class="mypage__wishlist-title">편의점 샛별이</p>
+                    <p class="mypage__wishlist-info">김유정, 지상욱 출연</p>
+
+                </div>
+            </div>
+
+        </section>
+        <section></section>
     </div>
-
-    <form action="find.html" class="login-form">
-
-        <input name="username" type="text" required autocomplete="off" placeholder="ID">
-
-        <input name="password" type="password" required autocomplete="off" placeholder="PASSWORD">
-
-        <input name="submit" type="submit" required autocomplete="off" placeholder="ID">
-    </form>
 </body>
 
 </html>
+
+<!-- 1. 클래스 이름 지정 -->

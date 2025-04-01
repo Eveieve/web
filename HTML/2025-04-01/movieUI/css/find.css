@@ -66,6 +66,7 @@
 }
 
 .best-movie__img-container button {
+  /* 부모는 class = .position-relative */
   position: absolute;
   background-color: var(--purple);
   border-radius: 50%;
@@ -74,9 +75,11 @@
   color: white;
   bottom: 3.2rem;
 }
+
 .best-movie__title {
   padding-left: 25px;
 }
+
 .best-movie__promotion-title {
   font-size: 14px;
 }
@@ -84,4 +87,28 @@
   color: var(--purple);
   font-size: 40px;
   font-weight: 600;
+}
+
+.movie-rec {
+  margin: 25px 0;
+  padding: 0 25px;
+}
+
+.movie-rec__imgs {
+  margin-top: 20px;
+  list-style: none;
+  overflow: scroll;
+  display: flex;
+}
+
+.movie-rec__imgs img {
+  width: 150px;
+  border-radius: 20px;
+  
+  
+}
+
+.movie-rec__imgs li {
+
+  
 }

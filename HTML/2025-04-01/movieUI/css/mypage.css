@@ -1,0 +1,91 @@
+@import "./global.css";
+
+body {
+    background-color: #14071f;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 2rem;
+}
+
+/* profile 영역 div */
+.mypage__profile {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 3rem;
+    
+}
+
+.mypage__profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    /* 이 속성은 이미지나 비디오 같은 미디어 요소의 잘림 방식을 제어하는 CSS 속성.
+특히 width, height를 강제로 고정했을 때 비율 유지하며 꽉 채우기 위해 사용 */
+    object-fit: cover;
+    border: 1px solid white;
+    
+}
+.mypage__profille div {
+    
+}
+.mypage__profile-plus {
+
+padding: 20px;
+border-radius: 50%;
+background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: white;
+    
+}
+
+.mypage__profile-text {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.mypage__continue {
+    margin-bottom: 2rem;
+}
+
+.mypage__section-title {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.mypage__continue-list {
+    display: flex;
+    gap: 1rem;
+}
+
+.mypage__continue-item {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 0.5rem;
+    width: 160px;
+}
+
+.mypage__continue-img {
+    width: 100%;
+    border-radius: 8px;
+    /* display: block; */
+}
+
+.mypage__continue-title {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+* {
+    border: 2px solid coral;
+}
+
+/* flex container */
+.mypage__wishlist-container {
+    display: flex;
+}

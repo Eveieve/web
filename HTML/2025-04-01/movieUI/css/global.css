@@ -50,6 +50,7 @@ input {
 /* 화면 전체에서 스크롤을 완전히 막는 설정. */
 html, body{
     overflow: hidden;
+    /* overflow: auto; */
 }
 
 /* find.html의 검색바 스타일링 */
@@ -59,6 +60,9 @@ html, body{
     align-items: center;
 }
 
+/* 부모에 position: relative를 줘서 자식 요소를 그 안에서 원하는 위치에 정확히 배치 가능 */
+/* 만약 position-relative가 없으면, 자식은 화면 전체 기준으로 움직여버림 */
+/* absolute 배치가 필요한 경우 거의 무조건 부모에 position-relative 줌 */
 .position-relative{
     position: relative;
 }
